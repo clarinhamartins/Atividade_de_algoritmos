@@ -1,3 +1,4 @@
+//Código da música e artista
 class Musica {
   titulo: string;
   artista: string;
@@ -16,3 +17,19 @@ class Musica {
 
 let musica = new Musica('Outra vida', 'Armandinho', 215);
 musica.tocar();
+
+//Código do cachorro
+class Cachorro {
+  nome: string;
+
+  constructor(nome: string) {
+    this.nome = nome;
+  }
+
+  latir(): void {
+    console.log('Au au!');
+  }
+}
+
+let meuCachorro = new Cachorro("Jerry");
+meuCachorro.latir();
